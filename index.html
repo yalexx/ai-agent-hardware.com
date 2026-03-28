@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Agent Hardware — Run Autonomous Agents 24/7 | ClawBox</title>
-<meta name="description" content="AI agent hardware purpose-built for running autonomous agents locally. NVIDIA Jetson Orin Nano with 67 TOPS, 15W idle, zero cloud fees. Ships ready to go.">
-<meta name="keywords" content="ai agent hardware, autonomous ai device, agentic hardware, local ai agent device, ai agent box, ai agent appliance">
+<title>AI Agent Hardware — Autonomous AI on 15W | ClawBox</title>
+<meta name="description" content="AI agent hardware built for always-on autonomous agents. NVIDIA Jetson Orin Nano, 67 TOPS, 15W, 512GB NVMe — run AI agents 24/7 with zero cloud fees. €549 one-time.">
+<meta name="keywords" content="ai agent hardware, autonomous ai device, agentic hardware, local ai agent device, ai agent box, ai agent appliance, dedicated ai hardware">
 <link rel="canonical" href="https://ai-agent-hardware.com/">
-<meta property="og:title" content="AI Agent Hardware — Run Autonomous Agents 24/7 | ClawBox">
-<meta property="og:description" content="AI agent hardware purpose-built for running autonomous agents locally. NVIDIA Jetson Orin Nano with 67 TOPS, 15W idle, zero cloud fees.">
+<meta property="og:title" content="AI Agent Hardware — Autonomous AI on 15W | ClawBox">
+<meta property="og:description" content="AI agent hardware built for always-on autonomous agents. NVIDIA Jetson Orin Nano, 67 TOPS, 15W, zero cloud fees. €549 one-time.">
 <meta property="og:url" content="https://ai-agent-hardware.com/">
 <meta property="og:image" content="https://openclawhardware.dev/clawbox-1.webp">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AI Agent Hardware — Run Autonomous Agents 24/7 | ClawBox">
-<meta name="twitter:description" content="AI agent hardware purpose-built for running autonomous agents locally. NVIDIA Jetson Orin Nano with 67 TOPS, 15W idle, zero cloud fees.">
+<meta name="twitter:title" content="AI Agent Hardware — Autonomous AI on 15W | ClawBox">
+<meta name="twitter:description" content="AI agent hardware built for always-on autonomous agents. NVIDIA Jetson Orin Nano, 67 TOPS, 15W, zero cloud fees. €549 one-time.">
 <meta name="robots" content="index, follow">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"ClawBox","description":"AI agent hardware purpose-built for running autonomous agents locally. NVIDIA Jetson Orin Nano with 67 TOPS, 15W power draw, 512GB NVMe.","brand":{"@type":"Brand","name":"OpenClaw"},"image":"https://openclawhardware.dev/clawbox-1.webp","url":"https://openclawhardware.dev/","offers":{"@type":"Offer","price":"549","priceCurrency":"EUR","availability":"https://schema.org/InStock"}}</script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -75,6 +75,10 @@ nav a{margin-left:1.5rem;color:var(--muted);font-size:.9rem}nav a:hover{color:va
 .cta-box{background:color-mix(in srgb,var(--accent) 10%,var(--bg2));border-radius:16px;padding:3rem 2rem;text-align:center;border:1px solid color-mix(in srgb,var(--accent) 25%,transparent)}
 .cta-box h2{font-size:1.8rem;font-weight:800;margin-bottom:.75rem}
 .cta-box p{color:var(--muted);margin-bottom:2rem}
+.use-cases{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem}
+.use-case{background:var(--bg2);border-radius:12px;padding:1.5rem;border:1px solid var(--border)}
+.use-case h3{color:var(--text);font-size:.95rem;font-weight:700;margin-bottom:.5rem}
+.use-case p{color:var(--muted);font-size:.88rem;line-height:1.6}
 footer{background:var(--bg2);border-top:1px solid var(--border);padding:2rem;text-align:center;color:var(--muted);font-size:.85rem}
 footer a{color:var(--accent)}
 .popup-overlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(10,15,26,.88);z-index:9999;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(4px)}
@@ -96,7 +100,7 @@ nav{display:none}
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q9FY8Q06EX"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Q9FY8Q06EX');</script>
-<meta name="revised" content="2026-03-22">
+<meta name="revised" content="2026-03-28">
 </head>
 <body>
 
@@ -105,6 +109,7 @@ nav{display:none}
   <nav>
     <a href="#features">Features</a>
     <a href="#specs">Specs</a>
+    <a href="#use-cases">Use Cases</a>
     <a href="#guide">Guide</a>
     <a href="#faq">FAQ</a>
     <a href="https://openclawhardware.dev/" target="_blank">Buy Now</a>
@@ -113,8 +118,8 @@ nav{display:none}
 
 <section class="hero">
   <div class="badge">✨ Powered by NVIDIA Jetson Orin Nano</div>
-  <h1>AI Agent Hardware That Runs <span>24/7</span> on 15 Watts</h1>
-  <p>Purpose-built ai agent hardware for running autonomous agents locally. No cloud subscriptions, no data leaving your network — just 67 TOPS of real inference power in a silent, palm-sized box.</p>
+  <h1>AI Agent Hardware That Never <span>Sleeps</span></h1>
+  <p>Purpose-built ai agent hardware for running autonomous agents locally. No cloud subscriptions, no data leaving your network — just 67 TOPS of real inference power in a silent, palm-sized box that costs €3/month to run.</p>
   <div>
     <a href="https://openclawhardware.dev/openclaw-hardware" target="_blank" class="cta-btn">Get ClawBox — €549 →</a>
     <a href="#guide" class="cta-sec">Why dedicated hardware? ↓</a>
@@ -135,16 +140,50 @@ nav{display:none}
 <section class="section" id="guide">
   <h2 class="section-title">Why You Need Dedicated <span>AI Agent Hardware</span></h2>
   <div class="content-block">
-    <p>AI agents are no longer experimental — they browse the web, manage calendars, draft emails, control smart-home devices, and execute multi-step workflows without human input. But running them reliably demands something most setups can't provide: <strong>always-on, low-power, private compute</strong>. That's exactly what dedicated ai agent hardware solves.</p>
+    <p>AI agents in 2026 aren't chatbots. They browse the web, file taxes, monitor stock portfolios, manage smart-home schedules, triage your inbox, and execute multi-step workflows autonomously — often while you sleep. But running agents that actually <em>do things</em> around the clock demands something most setups can't deliver: <strong>always-on, low-power, private compute with persistent state</strong>. That's the gap dedicated ai agent hardware fills.</p>
 
-    <h3>The Problem with Cloud-Hosted Agents</h3>
-    <p>Cloud AI services charge per API call, throttle heavy users, and route every request — including private documents, credentials, and personal messages — through third-party servers. An autonomous agent that monitors your inbox, automates your finances, or manages IoT devices shouldn't depend on someone else's infrastructure. If the API goes down or your subscription lapses, the agent stops working. Worse, every interaction becomes training data you don't control.</p>
+    <h3>The Real Cost of Cloud-Hosted Agents</h3>
+    <p>Cloud AI services charge per API call and throttle heavy users. An agent that checks your email every 15 minutes, monitors five security cameras, and manages a smart thermostat generates thousands of inference calls per day. At $0.01–0.06 per request, the monthly bill adds up fast — often exceeding €100 for serious automation. Worse, every request routes through third-party servers. Your agent reads your bank statements, opens your medical records, and manages passwords on infrastructure you don't control. A single data breach exposes everything.</p>
 
-    <h3>Why a Laptop or Desktop Falls Short</h3>
-    <p>You could self-host on an old laptop, but agents need to run around the clock. A desktop pulling 150–300 watts adds €30–60/month to your power bill and generates significant heat and fan noise. Sleep modes kill background tasks. Reboots interrupt workflows. Dedicated ai agent hardware like <a href="https://openclawhardware.dev/">ClawBox</a> solves this with a fanless, 15-watt design that runs 24/7 for roughly €3/month in electricity — less than a single month of ChatGPT Plus.</p>
+    <h3>Why Repurposing a Desktop Falls Short</h3>
+    <p>Self-hosting on an old laptop or desktop seems logical, but agents need to run around the clock. A typical desktop idles at 80–150W, costing €25–50/month in electricity alone — sometimes more than a cloud subscription. Fans spin constantly, sleep modes kill background tasks, and OS updates trigger reboots that interrupt running workflows. Dedicated ai agent hardware like <a href="https://openclawhardware.dev/">ClawBox</a> draws just 15 watts, runs fanless, and auto-recovers from power loss. That's roughly €36/year in electricity — less than two months of ChatGPT Plus.</p>
 
-    <h3>What Makes Good AI Agent Hardware</h3>
-    <p>The ideal ai agent hardware combines an efficient AI accelerator (for local inference), enough storage for models and context (512GB NVMe), low idle power for always-on operation, and pre-configured software so you're not debugging Docker containers at 2 AM. ClawBox ships with <strong>OpenClaw</strong> pre-installed — connect Telegram, WhatsApp, or Discord in under five minutes, and your agent is live. It handles browser automation, file management, scheduling, and tool use out of the box, with 67 TOPS of NVIDIA Jetson performance for running local LLMs at 15 tokens per second.</p>
+    <h3>What Separates Good AI Agent Hardware from a Hobby Board</h3>
+    <p>A Raspberry Pi costs €80 but lacks any AI accelerator — it can barely tokenize input, let alone run inference. Good ai agent hardware needs three things: an efficient neural processor for local inference (ClawBox delivers 67 TOPS via NVIDIA's Jetson Orin Nano), enough fast storage for models and conversation context (512GB NVMe), and pre-configured software so you're productive in minutes, not days. ClawBox ships with <strong>OpenClaw</strong> pre-installed — connect Telegram, WhatsApp, or Discord in under five minutes, and your agent is live. It handles browser automation, file management, scheduling, and tool use out of the box, running local LLMs at 15 tokens per second.</p>
+
+    <h3>The Always-On Advantage</h3>
+    <p>The killer feature of dedicated ai agent hardware isn't raw performance — it's persistence. Your agent maintains memory across sessions, learns your preferences over weeks, and acts on triggers at any hour. Miss a 3 AM price drop alert? Not with hardware that never sleeps. Need your agent to scrape competitor prices every hour and update a spreadsheet? It just runs. No session timeouts, no "continue this chat" prompts, no lost context. This is what separates a toy from infrastructure.</p>
+  </div>
+</section>
+
+<section class="section" id="use-cases">
+  <h2 class="section-title">Real-World <span>AI Agent Hardware</span> Use Cases</h2>
+  <p class="section-sub">What people actually build when they have dedicated hardware for autonomous agents.</p>
+  <div class="use-cases">
+    <div class="use-case">
+      <h3>📧 Autonomous Email Triage</h3>
+      <p>Your agent reads every incoming email, categorizes by urgency, drafts replies to routine messages, and sends you a daily digest on Telegram. Runs 24/7 without any cloud API costs — all inference happens locally on the Jetson GPU.</p>
+    </div>
+    <div class="use-case">
+      <h3>🏠 Smart Home Brain</h3>
+      <p>Connect to Home Assistant and let your AI agent make intelligent decisions — adjusting heating based on weather forecasts, turning off forgotten lights, or alerting you when a security camera detects unusual activity. Local processing means zero latency and full privacy.</p>
+    </div>
+    <div class="use-case">
+      <h3>📊 Market Monitoring &amp; Alerts</h3>
+      <p>Set your agent to track stock prices, crypto markets, or competitor product pages. It scrapes data on a schedule, spots patterns, and sends instant alerts via WhatsApp or Discord when thresholds are hit — no third-party monitoring service required.</p>
+    </div>
+    <div class="use-case">
+      <h3>🔧 DevOps &amp; Server Monitoring</h3>
+      <p>Point your agent at server dashboards, CI/CD pipelines, or log files. It watches for errors, restarts failed services, creates GitHub issues for recurring bugs, and pages you only when human intervention is genuinely needed.</p>
+    </div>
+    <div class="use-case">
+      <h3>📅 Personal Executive Assistant</h3>
+      <p>Your agent manages your calendar, resolves scheduling conflicts, sends meeting reminders, prepares briefing notes from relevant emails, and even books restaurants. Always available, always aware of your context.</p>
+    </div>
+    <div class="use-case">
+      <h3>🧪 Research &amp; Data Collection</h3>
+      <p>Have your agent systematically browse academic papers, Reddit threads, or industry news. It summarizes findings, tracks topics over time, and compiles weekly reports — turning hours of manual browsing into automated intelligence gathering.</p>
+    </div>
   </div>
 </section>
 
@@ -152,12 +191,12 @@ nav{display:none}
   <h2 class="section-title">Built for <span>Autonomous Agents</span></h2>
   <p class="section-sub">Every component chosen for reliability, efficiency, and real agentic workloads.</p>
   <div class="feats">
-    <div class="feat"><div class="feat-icon">🤖</div><div><h3>Agent-First Design</h3>Pre-loaded with OpenClaw for browser automation, tool use, memory, and multi-platform messaging.</div></div>
-    <div class="feat"><div class="feat-icon">⚡</div><div><h3>67 TOPS Inference</h3>NVIDIA Jetson Orin Nano Super runs Llama 3 8B at 15 tok/s — enough for real-time agent reasoning.</div></div>
-    <div class="feat"><div class="feat-icon">🔇</div><div><h3>Silent &amp; Fanless</h3>Passive cooling, no moving parts. Runs in a bedroom, office, or server closet without a sound.</div></div>
-    <div class="feat"><div class="feat-icon">🔒</div><div><h3>Zero Data Leakage</h3>All processing stays on your LAN. No API keys, no cloud accounts, no telemetry phoning home.</div></div>
-    <div class="feat"><div class="feat-icon">🔄</div><div><h3>Always-On Operation</h3>Designed for 24/7 uptime. Auto-recovers from power loss, resumes agent tasks on boot.</div></div>
-    <div class="feat"><div class="feat-icon">🌐</div><div><h3>Hybrid Cloud Option</h3>Use local inference by default and seamlessly fall back to cloud APIs (GPT-4, Claude) when you need frontier reasoning.</div></div>
+    <div class="feat"><div class="feat-icon">🤖</div><div><h3>Agent-First Design</h3>Pre-loaded with OpenClaw for browser automation, tool use, persistent memory, and multi-platform messaging across Telegram, WhatsApp, and Discord.</div></div>
+    <div class="feat"><div class="feat-icon">⚡</div><div><h3>67 TOPS Inference</h3>NVIDIA Jetson Orin Nano Super runs Llama 3 8B at 15 tok/s — fast enough for real-time agent reasoning, tool calls, and chain-of-thought workflows.</div></div>
+    <div class="feat"><div class="feat-icon">🔇</div><div><h3>Silent &amp; Fanless</h3>Passive cooling, no moving parts. Runs in a bedroom, office, or server closet without a sound. No thermal throttling under sustained agent workloads.</div></div>
+    <div class="feat"><div class="feat-icon">🔒</div><div><h3>Zero Data Leakage</h3>All processing stays on your LAN. No API keys required for basic operation, no cloud accounts, no telemetry phoning home. Your data never leaves the device.</div></div>
+    <div class="feat"><div class="feat-icon">🔄</div><div><h3>Always-On Operation</h3>Designed for 24/7 uptime. Auto-recovers from power loss, resumes agent tasks on boot. Watchdog process ensures your agents restart if anything crashes.</div></div>
+    <div class="feat"><div class="feat-icon">🌐</div><div><h3>Hybrid Cloud Option</h3>Use local inference by default and seamlessly fall back to cloud APIs (GPT-4, Claude, Gemini) when you need frontier-level reasoning for complex tasks.</div></div>
   </div>
 </section>
 
@@ -183,7 +222,7 @@ nav{display:none}
     <div class="step"><h3>Unbox &amp; Power On</h3><p>Connect the included power adapter and plug in ethernet (or connect to WiFi). ClawBox boots in under 30 seconds.</p></div>
     <div class="step"><h3>Open clawbox.local</h3><p>Type clawbox.local in any browser on your network — no IP address hunting needed.</p></div>
     <div class="step"><h3>Scan QR Code</h3><p>Scan with your phone to link Telegram, WhatsApp, or Discord. Your agent is now reachable from anywhere.</p></div>
-    <div class="step"><h3>Deploy Your Agents</h3><p>Send a message and your AI agent starts working — browsing, scheduling, automating, and learning your preferences.</p></div>
+    <div class="step"><h3>Deploy Your Agents</h3><p>Send a message and your AI agent starts working — browsing, scheduling, automating, and learning your preferences over time.</p></div>
   </div>
 </section>
 
@@ -209,6 +248,7 @@ nav{display:none}
       <tr><td>Electricity cost/yr</td><td class="hi">~€36</td><td>N/A</td><td>€210–790</td></tr>
       <tr><td>Offline capable</td><td class="hi"><span class="ck">✓</span> Yes</td><td><span class="cx">✗</span> No</td><td>Maybe</td></tr>
       <tr><td>Noise</td><td class="hi">0 dB (fanless)</td><td>N/A</td><td>30–50 dB</td></tr>
+      <tr><td>Persistent agent memory</td><td class="hi"><span class="ck">✓</span> Built-in</td><td><span class="cx">✗</span> Session-limited</td><td>Manual setup</td></tr>
     </tbody>
   </table>
   </div>
@@ -218,16 +258,24 @@ nav{display:none}
   <h2 class="section-title">AI Agent Hardware <span>FAQ</span></h2>
   <div>
     <div class="faq-item">
-      <div class="faq-q">❓ What exactly is AI agent hardware and why can't I just use a Raspberry Pi?</div>
-      <div class="faq-a">AI agent hardware is a dedicated device optimized for running autonomous AI agents — models that reason, use tools, and take actions without constant human input. A Raspberry Pi lacks a GPU accelerator, so it can't run even small language models at usable speeds. ClawBox includes NVIDIA's Jetson Orin Nano with 67 TOPS of AI compute, delivering 15 tokens/sec on Llama 3 8B — fast enough for real-time agent reasoning, tool calls, and browser automation. It also ships with <a href="https://openclawhardware.dev/">OpenClaw</a> pre-installed, so the entire agentic stack is ready out of the box.</div>
+      <div class="faq-q">❓ What is AI agent hardware and why can't I use a Raspberry Pi instead?</div>
+      <div class="faq-a">AI agent hardware is a dedicated device optimized for running autonomous AI agents — models that reason, use tools, and take actions without constant human input. A Raspberry Pi lacks a GPU accelerator, so it can't run even small language models at usable speeds. ClawBox includes NVIDIA's Jetson Orin Nano with 67 TOPS of AI compute, delivering 15 tokens/sec on Llama 3 8B — fast enough for real-time agent reasoning, tool calls, and browser automation. It ships with <a href="https://openclawhardware.dev/">OpenClaw</a> pre-installed, so the entire agentic stack is ready out of the box.</div>
     </div>
     <div class="faq-item">
-      <div class="faq-q">❓ Can this AI agent hardware run frameworks like LangChain, CrewAI, or AutoGen?</div>
-      <div class="faq-a">Yes. ClawBox runs full Ubuntu Linux with Python 3, CUDA, and all the standard AI tooling. You can install LangChain, CrewAI, AutoGen, or any other agentic framework alongside the pre-installed OpenClaw stack. The 512GB NVMe gives you plenty of room for multiple model files and project data. For most users, the built-in OpenClaw agent handles everyday tasks — but developers can SSH in and deploy custom agent pipelines on the same hardware.</div>
+      <div class="faq-q">❓ Can this AI agent hardware run LangChain, CrewAI, AutoGen, or custom frameworks?</div>
+      <div class="faq-a">Yes. ClawBox runs full Ubuntu Linux with Python 3, CUDA, and standard AI tooling. Install LangChain, CrewAI, AutoGen, or any agentic framework alongside the pre-installed OpenClaw stack. The 512GB NVMe provides ample room for multiple model files and project data. For most users, the built-in OpenClaw agent handles everyday tasks — but developers can SSH in and deploy custom pipelines on the same hardware.</div>
     </div>
     <div class="faq-item">
-      <div class="faq-q">❓ How many AI agents can run simultaneously on this hardware?</div>
-      <div class="faq-a">With 8GB of unified LPDDR5 memory, ClawBox comfortably runs one local language model plus multiple lightweight agent processes (schedulers, browser automation, messaging bots) in parallel. The OpenClaw runtime manages task queuing so your agents don't fight for GPU time. For heavier workloads, you can configure hybrid mode: routine tasks run locally on the Jetson while complex reasoning calls are routed to cloud APIs like GPT-4 or Claude — giving you the best of both worlds without exposing private data unnecessarily.</div>
+      <div class="faq-q">❓ How many agents can run simultaneously on this AI agent hardware?</div>
+      <div class="faq-a">With 8GB of unified LPDDR5 memory, ClawBox comfortably runs one local language model plus multiple lightweight agent processes (schedulers, browser automation, messaging bots) in parallel. OpenClaw manages task queuing so agents don't fight for GPU time. For heavier workloads, configure hybrid mode: routine tasks run locally while complex reasoning calls route to cloud APIs like GPT-4 or Claude — giving you the best of both worlds without exposing private data.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">❓ How does this AI agent hardware handle software updates and security patches?</div>
+      <div class="faq-a">ClawBox runs standard Ubuntu Linux, so you get the same security update pipeline as any Linux server — apt update and unattended-upgrades work out of the box. OpenClaw itself updates with a single command. The device sits behind your router's firewall by default, and since all AI inference happens locally, there's no attack surface exposed to the internet unless you choose to open ports for remote access.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">❓ What's the total cost of ownership for AI agent hardware vs cloud AI over 3 years?</div>
+      <div class="faq-a">ClawBox costs €549 upfront plus approximately €36/year in electricity (15W × 24/7). That's €657 total over three years. ChatGPT Plus at €20/month costs €720 over the same period — and you still don't get 24/7 autonomous agents, local privacy, or offline capability. A desktop running 24/7 at 150W costs €400–900 for hardware plus €400–1,200 in electricity over three years. ClawBox is the most economical option for serious, always-on AI agent workloads.</div>
     </div>
   </div>
 </section>
